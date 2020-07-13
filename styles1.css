@@ -1,0 +1,16 @@
+input[type="submit"] {
+    width: max-content;
+    background-color: blue;
+    border-color: blue;
+    color: white;
+}
+
+input:hover[type="submit"] {
+    border-color: black;
+}
+
+input[type="text"] {
+    width: 200px;
+}
+
+.textinput {}
