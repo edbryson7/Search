@@ -1,19 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <title>Search</title>
-    </head>
-    <body>
-        <form action="https://google.com/search">
-            <input type="text" name="as_q">
-            <br>
-            <input type="text" name="as_epq">
-            <br>
-            <input type="text" name="as_oq">
-            <br>
-            <input type="text" name="as_eq">
-            <input type="submit" value="Google Search">
-        </form>
-        <a class="indexLink" href="index.html">Google Search</a>
-    </body>
+
+<head>
+    <title>Advanced Search</title>
+    <style>
+        input[type="submit"] {
+            width: max-content;
+            background-color: blue;
+            border-color: blue;
+            color: white;
+        }
+
+        input:hover[type="submit"] {
+            border-color: black;
+        }
+
+        input[type="text"] {
+            width: 200px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Advanced Search</h1>
+    <form action="https://google.com/search">
+        <input type="text" name="as_q" placeholder="all of these words">
+        <br>
+        <input type="text" name="as_epq" placeholder="this exact word or phrase">
+        <br>
+        <input type="text" name="as_oq" placeholder="any of these words">
+        <br>
+        <input type="text" name="as_eq" placeholder="none of these words">
+        <input type="submit" value="Advanced Search">
+    </form>
+    <a class="indexLink" href="index.html">Google Search</a>
+</body>
+
 </html>
