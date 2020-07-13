@@ -3,6 +3,12 @@
 }
 
 h1 {
+    text-align: left;
+    color: #0077ff;
+    font-size: 48px;
+}
+
+.logo {
     margin-top: 7%;
     text-align: center;
     color: #0077ff;
@@ -16,21 +22,50 @@ input[type="search"] {
     width: 100%
 }
 
-div.buttons {
+.buttons {
     padding-top: 5px;
     text-align: center
 }
 
-div>input {
+.center-buttons {
     margin: 5px;
     font-size: 14px;
     padding-top: 5px;
     padding-bottom: 5px;
 }
 
-form {
+.large-search {
     margin-top: 5%;
     margin-left: auto;
     margin-right: auto;
     width: 30%;
+}
+
+#advanced-submit {
+    background-color: blue;
+    border-color: blue;
+    color: white;
+    margin-top: 10px;
+    margin-left: 572px;
+}
+
+#advanced-submit:hover {
+    border-color: black;
+}
+
+.advanced-input>input[type="text"] {
+    width: 500px;
+}
+
+.advanced-input {
+    margin: 10px;
+}
+
+.explanation {
+    margin-left: 20px;
+}
+
+.label {
+    float: left;
+    width: 180px
 }
