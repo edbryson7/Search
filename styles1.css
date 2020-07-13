@@ -1,16 +1,38 @@
-input[type="submit"] {
-    width: max-content;
+#links {
+    text-align: right;
+}
+
+h1 {
+    text-align: left;
+    color: #0077ff;
+    font-size: 48px;
+}
+
+#advanced-submit {
     background-color: blue;
     border-color: blue;
     color: white;
+    margin-top: 10px;
+    margin-left: 572px;
 }
 
-input:hover[type="submit"] {
+#advanced-submit:hover {
     border-color: black;
 }
 
 input[type="text"] {
-    width: 200px;
+    width: 500px;
 }
 
-.textinput {}
+.advanced-input {
+    margin: 10px;
+}
+
+.explanation {
+    margin-left: 20px;
+}
+
+.label {
+    float: left;
+    width: 180px
+}

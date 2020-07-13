@@ -8,20 +8,20 @@
 </head>
 
 <body>
+    <div id="links"><a class="indexLink" href="index.html">Google Search</a></div>
     <h1>Advanced Search</h1>
     <form action="https://google.com/search">
         <div class="textinput">
-            All of these words<input type="text" name="as_q" placeholder="all of these words">
-            <br>
-            This exact word or phrase<input type="text" name="as_epq" placeholder="this exact word or phrase">
-            <br>
-            Any of these words<input type="text" name="as_oq" placeholder="any of these words">
-            <br>
-            None of these words<input type="text" name="as_eq" placeholder="none of these words">
+            <div class="advanced-input"><span class="label">All of these words</span><input type="text" name="as_q"><span class="explanation">Find pages in the language you select.</span></div>
+
+            <div class="advanced-input"><span class="label">This exact word or phrase</span><input type="text" name="as_epq"><span class="explanation">Put exact words in quotes</span></div>
+
+            <div class="advanced-input"><span class="label">Any of these words</span><input type="text" name="as_oq"><span class="explanation">Type OR between all the words you want</span></div>
+
+            <div class="advanced-input"><span class="label">None of these words</span><input type="text" name="as_eq"><span class="explanation">Put a minus sign before words you don't want</span></div>
         </div>
-        <input type="submit" value="Advanced Search">
+        <input id="advanced-submit" type="submit" value="Advanced Search">
     </form>
-    <a class="indexLink" href="index.html">Google Search</a>
 </body>
 
 </html>

@@ -1,9 +1,9 @@
-div#links {
+#links {
     text-align: right;
 }
 
 h1 {
-    padding-top: 7%;
+    margin-top: 7%;
     text-align: center;
     color: #0077ff;
     font-size: 48px;
