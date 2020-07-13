@@ -3,34 +3,22 @@
 
 <head>
     <title>Advanced Search</title>
-    <style>
-        input[type="submit"] {
-            width: max-content;
-            background-color: blue;
-            border-color: blue;
-            color: white;
-        }
 
-        input:hover[type="submit"] {
-            border-color: black;
-        }
-
-        input[type="text"] {
-            width: 200px;
-        }
-    </style>
+    <link rel="stylesheet" href="styles1.css">
 </head>
 
 <body>
     <h1>Advanced Search</h1>
     <form action="https://google.com/search">
-        <input type="text" name="as_q" placeholder="all of these words">
-        <br>
-        <input type="text" name="as_epq" placeholder="this exact word or phrase">
-        <br>
-        <input type="text" name="as_oq" placeholder="any of these words">
-        <br>
-        <input type="text" name="as_eq" placeholder="none of these words">
+        <div class="textinput">
+            All of these words<input type="text" name="as_q" placeholder="all of these words">
+            <br>
+            This exact word or phrase<input type="text" name="as_epq" placeholder="this exact word or phrase">
+            <br>
+            Any of these words<input type="text" name="as_oq" placeholder="any of these words">
+            <br>
+            None of these words<input type="text" name="as_eq" placeholder="none of these words">
+        </div>
         <input type="submit" value="Advanced Search">
     </form>
     <a class="indexLink" href="index.html">Google Search</a>

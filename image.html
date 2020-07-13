@@ -3,17 +3,22 @@
 
 <head>
     <title>Image Search</title>
+
     <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
+    <div id="links">
+        <a class="indexLink" href="index.html">Google Search</a>
+    </div>
     <h1>Image Search</h1>
     <form action="https://google.com/search">
-        <input type="text" name="q">
-        <input type="hidden" name="tbm" value="isch" />
-        <input type="submit" value="Google Image Search">
+        <input type="search" name="q">
+        <div class="buttons">
+            <input type="hidden" name="tbm" value="isch" />
+            <input type="submit" value="Google Image Search">
+        </div>
     </form>
-    <a class="indexLink" href="index.html">Google Search</a>
 </body>
 
 </html>
